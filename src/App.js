@@ -34,7 +34,7 @@ setCart([...arr])
     <>
     <Navbar size={cart.length} setShow={setShow}/>
       {
-      !show ? <Amazon handleClick={handleClick} />
+      show ? <Amazon handleClick={handleClick} />
        :  <Cart cart={cart} setCart={setCart} handleChange={handleChange} />
        }
     </>

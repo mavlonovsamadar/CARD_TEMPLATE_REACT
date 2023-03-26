@@ -6,7 +6,7 @@ const Navbar = ({size, setShow}) => {
   return (
     <>
 <Container>
-    <Row>
+    <Row className='mt-4'>
         <Col xs={12}>
         <nav>
             <div className="nav_box">

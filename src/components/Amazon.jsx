@@ -6,7 +6,7 @@ const Amazon = ({ handleClick }) => {
     return (
         <>
             <Container>
-                <Row className='justify-content-center'>
+                <Row className='justify-content-center mt-4'>
                     {list?.map((item) => {
                         return (
                             <>
