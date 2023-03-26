@@ -6,11 +6,11 @@ const Amazon = ({ handleClick }) => {
     return (
         <>
             <Container>
-                <Row className='justify-content-center mt-4'>
+                <Row className='justify-content-center mt-4 '>
                     {list?.map((item) => {
                         return (
                             <>
-                                <Col xs={3}>
+                                <Col xs={12} lg={3}>
                                     <Cards item={item} key={item.id} handleClick={handleClick} />
                                 </Col>
                             </>
